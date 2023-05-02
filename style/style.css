@@ -19,6 +19,10 @@
     margin-bottom: 1rem;
 }
 
+.margin-bottom-sm {
+    margin-bottom: .5rem;
+}
+
 .heigth-md {
     height: 4rem;
 }

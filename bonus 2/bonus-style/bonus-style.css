@@ -3,9 +3,16 @@ body {
     background-color: #212121;
 }
 
-h1 {color: black;
-font-size: 3.5rem;
-text-align: center;}
+header {
+    margin-bottom: 6%;
+}
+
+
+h1 {
+    color: black;
+    font-size: 3.5rem;
+    text-align: center;
+}
 
 .app {
     width: 100%;
@@ -17,9 +24,12 @@ text-align: center;}
 
 /* UTILITIES */
 
-main div.row div.col-1 {
+div.row div.col-1 {
     aspect-ratio : 1 / 1;
-    border: 1px solid red;
+}
+
+main div.row div.col-1 {
+    border: 1px solid #7d7d7d;
 }
 
 .container {
@@ -51,6 +61,10 @@ main div.row div.col-1 {
 
 .justify-center {
     justify-content: center;
+}
+
+.margin-sm {
+    margin: 15px;
 }
 
 .margin-bottom {
@@ -129,10 +143,16 @@ main div.row div.col-1 {
     border-bottom: 5px solid #7d7d7d;
 }
 
+.tred-effect-inverted {
+    border-top: 5px solid #7d7d7d;
+    border-left: 5px solid #7d7d7d;
+    border-right: 5px solid white;
+    border-bottom: 5px solid white;
+}
+
 /* Text-colors */
 
 .txt-black {
     color: black;
 }
-
 

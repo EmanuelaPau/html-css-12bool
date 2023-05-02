@@ -1,5 +1,6 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
+    background-color: #212121;
 }
 
 h1 {color: black;
@@ -88,6 +89,31 @@ text-align: center;}
 
 .bg-grey {
     background-color: #bdbdbd;
+}
+
+/* Borders and shadows */
+
+.light-high {
+    border-top: 5px solid yellow;
+}
+
+.light-left {
+    border-left: 5px solid yellow;
+}
+
+.shadow-right {
+    border-right: 5px solid #7d7d7d;
+}
+
+.shadow-bottom {
+    border-bottom: 5px solid #7d7d7d;
+}
+
+.tred-effect {
+    border-top: 5px solid white;
+    border-left: 5px solid white;
+    border-right: 5px solid #7d7d7d;
+    border-bottom: 5px solid #7d7d7d;
 }
 
 /* Text-colors */

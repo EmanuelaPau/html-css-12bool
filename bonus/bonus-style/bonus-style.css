@@ -1,4 +1,21 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {color: black;
+font-size: 3rem;}
+
 /* UTILITIES */
+
+.container {
+    margin: 0 auto;
+    max-width: 50%;
+}
+
+.container:active .gun{
+    background-color: black;
+}
+
 .flex {
     display: flex;
 }

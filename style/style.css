@@ -15,6 +15,14 @@
     justify-content: center;
 }
 
+.margin-bottom {
+    margin-bottom: 1rem;
+}
+
+.heigth-md {
+    height: 4rem;
+}
+
 /* Dimensions */
 .row-heigth {
     height: 20px;

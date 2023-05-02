@@ -28,6 +28,30 @@ img {
     text-align: center;
 }
 
+.status {
+    cursor: pointer;
+}
+
+.bomb {
+    display: none;
+}
+
+.status:active .bomb{
+    display: inline-block;
+}
+
+.status:active .smile{
+    display: none;
+}
+
+.bombed {
+    display: none;
+}
+
+.col-1.tred-effect:active .bombed {
+    display: inline-block;
+}
+
 h1 {
     font-size: 2.4rem;
 }
@@ -47,6 +71,8 @@ main div.row div.col-1.tred-effect{
     border-left: 5px solid white;
     border-right: 5px solid #7d7d7d;
     border-bottom: 5px solid #7d7d7d;
+
+    cursor: pointer;
 }
 
 .container {

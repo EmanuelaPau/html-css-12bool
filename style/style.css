@@ -7,4 +7,25 @@
     position: relative;
 }
 
+.flex-align-center {
+    align-items: center;
+}
+
+.flex-justify-center {
+    justify-content: center;
+}
+
+/* Dimensions */
+.row-heigth {
+    height: 20px;
+}
+
 /* BG Colors */
+
+.bg-blue {
+    background-color: #006cfa;
+}
+
+/* Text-colors */
+
+

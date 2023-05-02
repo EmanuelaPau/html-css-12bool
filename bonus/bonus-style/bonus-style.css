@@ -16,6 +16,12 @@ font-size: 3rem;}
     background-color: black;
 }
 
+.container:active .gun-shoot{
+    transition-delay: 1s;
+    transition-duration: 1s;
+    background-color: yellow;
+}
+
 .flex {
     display: flex;
 }

@@ -24,55 +24,46 @@
 .col-1 {
     flex-basis: calc((100% / 9) * 1 );
     max-width: calc((100% / 9) * 1 );
-    aspect-ratio : 1 / 1;
 }
 
 .col-2 {
     flex-basis: calc((100% / 9) * 2 );
     max-width: calc((100% / 9) * 2 );
-    aspect-ratio : 2 / 1;
 }
 
 .col-3 {
     flex-basis: calc((100% / 9) * 3 );
     max-width: calc((100% / 9) * 3 );
-    aspect-ratio : 3 / 1;
 }
 
 .col-4 {
     flex-basis: calc((100% / 9) * 4 );
     max-width: calc((100% / 9) * 4 );
-    aspect-ratio : 4 / 1;
 }
 
 .col-5 {
     flex-basis: calc((100% / 9) * 5 );
     max-width: calc((100% / 9) * 5 );
-    aspect-ratio : 5 / 1;
 }
 
 .col-6 {
     flex-basis: calc((100% / 9) * 6 );
     max-width: calc((100% / 9) * 6 );
-    aspect-ratio : 6 / 1;
 }
 
 .col-7 {
     flex-basis: calc((100% / 9) * 7 );
     max-width: calc((100% / 9) * 7 );
-    aspect-ratio : 7 / 1;
 }
 
 .col-8 {
     flex-basis: calc((100% / 9) * 8 );
     max-width: calc((100% / 9) * 8 );
-    aspect-ratio : 8 / 1;
 }
 
 .col-9 {
     flex-basis: calc((100% / 9) * 9 );
     max-width: calc((100% / 9) * 9 );
-    aspect-ratio : 9 / 1;
 }
 
 /* OFFSET  */

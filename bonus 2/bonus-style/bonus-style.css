@@ -15,6 +15,11 @@ text-align: center;}
 
 /* UTILITIES */
 
+.aspect-ratio-one {
+    aspect-ratio : 1 / 1;
+    border: 1px solid red;
+}
+
 .container {
     margin: 0 auto;
     max-width: 30%;

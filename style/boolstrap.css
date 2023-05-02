@@ -16,6 +16,8 @@
 }
 
 [class*= "col-"] {
+    flex: 0 0 auto;
+
     padding: 1rem;
     border: 1px solid white;
 }
@@ -131,3 +133,4 @@
 .col-offset-12 {
     flex-basis: calc((100% / 12) * 12 );
 }
+

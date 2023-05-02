@@ -94,11 +94,11 @@ text-align: center;}
 /* Borders and shadows */
 
 .light-high {
-    border-top: 5px solid yellow;
+    border-top: 5px solid white;
 }
 
 .light-left {
-    border-left: 5px solid yellow;
+    border-left: 5px solid white;
 }
 
 .shadow-right {

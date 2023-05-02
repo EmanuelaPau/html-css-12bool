@@ -23,6 +23,10 @@
     height: 4rem;
 }
 
+.text-align-l {
+    text-align: left;
+}
+
 /* Dimensions */
 .row-heigth {
     height: 20px;
@@ -43,5 +47,9 @@
 }
 
 /* Text-colors */
+
+.txt-black {
+    color: black;
+}
 
 

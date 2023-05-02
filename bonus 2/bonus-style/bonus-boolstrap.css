@@ -15,8 +15,6 @@
 [class*= "col"] {
     flex: 0 0 auto;
     
-    color: white;
-    text-align: center;
 
     padding: 1rem;
     border: 1px solid white;

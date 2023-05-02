@@ -9,7 +9,19 @@
     flex-direction: row;
     flex-wrap: wrap;
 
+    max-width: 100%;
+
     text-align: center;
     color: white;
+}
+
+[class*= "col-"] {
     padding: 1rem;
+    border: 1px solid white;
+}
+
+
+.col-1 {
+    flex-basis: calc((100% / 12) * 1 );
+    max-width: calc((100% / 12) * 1 );
 }

@@ -1,17 +1,19 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #212121;
+
+    font-family: 'Orbitron', sans-serif;
+    color: #b30a20;
 }
 
 header {
     margin-bottom: 6%;
 }
 
-
-h1 {
-    color: black;
-    font-size: 3.5rem;
-    text-align: center;
+img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
 
 .app {
@@ -20,6 +22,14 @@ h1 {
     margin: 100px 0;
 
     padding: 6%;
+}
+
+.time {
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.4rem;
 }
 
 /* UTILITIES */
@@ -35,16 +45,6 @@ main div.row div.col-1 {
 .container {
     margin: 0 auto;
     max-width: 30%;
-}
-
-.container:active .gun{
-    background-color: black;
-}
-
-.container:active .gun-shoot{
-    transition-delay: .5s;
-    transition-duration: 1s;
-    background-color: yellow;
 }
 
 .flex {
@@ -152,7 +152,7 @@ main div.row div.col-1 {
 
 /* Text-colors */
 
-.txt-black {
-    color: black;
+.txt-red {
+    color:#b30a20
 }
 

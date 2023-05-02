@@ -7,11 +7,11 @@
     position: relative;
 }
 
-.flex-align-center {
+.align-center {
     align-items: center;
 }
 
-.flex-justify-center {
+.justify-center {
     justify-content: center;
 }
 

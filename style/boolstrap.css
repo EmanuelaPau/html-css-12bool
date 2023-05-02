@@ -12,12 +12,12 @@
     max-width: 100%;
 
     text-align: center;
-    color: white;
 }
 
 [class*= "col-"] {
     flex: 0 0 auto;
-
+    color: white;
+    
     padding: 1rem;
     border: 1px solid white;
 }
@@ -134,3 +134,10 @@
     flex-basis: calc((100% / 12) * 12 );
 }
 
+/* FREE COLUMN */
+
+.col {
+    flex-grow: 1;
+    flex-basis: 1;
+    max-width: 100%;
+}

@@ -1,0 +1,71 @@
+/* UTILITIES */
+.flex {
+    display: flex;
+}
+
+.relative {
+    position: relative;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.margin-bottom {
+    margin-bottom: 1rem;
+}
+
+.margin-bottom-sm {
+    margin-bottom: .5rem;
+}
+
+.heigth-md {
+    height: 4rem;
+}
+
+.text-align-l {
+    text-align: left;
+}
+
+/* Dimensions */
+.row-heigth {
+    height: 20px;
+}
+
+/* BG Colors */
+
+.bg-lt-blue {
+    background-color: #95cadc;
+}
+
+.bg-dk-blue {
+    background-color: #4f7da1;
+}
+
+.bg-lt-red {
+    background-color: #b30a20;
+}
+
+.bg-dk-red {
+    background-color: #65002f;
+}
+
+.bg-green {
+    background-color: #01e165;
+}
+
+.bg-black {
+    background-color: black;
+}
+
+/* Text-colors */
+
+.txt-black {
+    color: black;
+}
+
+

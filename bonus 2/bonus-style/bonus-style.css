@@ -26,7 +26,250 @@ img {
 
 .time {
     text-align: center;
+
 }
+
+/* TIME ANIMATION */
+.ten {
+    position: absolute;
+    left:0;
+    right:0;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    animation-name:countdown-ten;
+    animation-iteration-count: infinite;
+    animation-duration: 12s;
+}
+
+@keyframes countdown-ten {
+    0%   {opacity: 1;}
+    9.08%   {opacity: 1;}
+    9.09%   {opacity: 0;}
+    100%   {opacity: 0;}
+  }
+
+.nine {
+    position: absolute;
+    left:0;
+    right:0;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    animation-name:countdown-nine;
+    animation-iteration-count: infinite;
+    animation-duration: 12s;
+}
+
+@keyframes countdown-nine {
+    0%   {opacity: 0;}
+    9.08%  {opacity: 0;}
+    9.09%   {opacity: 1;}
+    18.17%   {opacity: 1;}
+    18.18%     {opacity: 0;}
+    100%    {opacity: 0;}
+  }
+
+.eight {
+    position: absolute;
+    left:0;
+    right:0;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    animation-name:countdown-eight;
+    animation-iteration-count: infinite;
+    animation-duration: 12s;
+}
+
+@keyframes countdown-eight {
+    0%   {opacity: 0;}
+    18.17%  {opacity: 0;}
+    18.18%   {opacity: 1;}
+    27.26%   {opacity: 1;}
+    27.27%   {opacity: 0;}
+    100%    {opacity: 0;}
+  }
+
+.seven {
+    position: absolute;
+    left:0;
+    right:0;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    animation-name:countdown-seven;
+    animation-iteration-count: infinite;
+    animation-duration: 12s;
+}
+
+@keyframes countdown-seven {
+    0%   {opacity: 0;}
+    27.26%  {opacity: 0;}
+    27.27%   {opacity: 1;}
+    36.35%   {opacity: 1;}
+    36.36%   {opacity: 0;}
+    100%    {opacity: 0;}
+  }
+
+.six {
+    position: absolute;
+    left:0;
+    right:0;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    animation-name:countdown-six;
+    animation-iteration-count: infinite;
+    animation-duration: 12s;
+}
+
+@keyframes countdown-six {
+    0%   {opacity: 0;}
+    36.35%  {opacity: 0;}
+    36.36%   {opacity: 1;}
+    45.44%   {opacity: 1;}
+    45.45%   {opacity: 0;}
+    100%    {opacity: 0;}
+  }
+
+.five {
+    position: absolute;
+    left:0;
+    right:0;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    animation-name:countdown-five;
+    animation-iteration-count: infinite;
+    animation-duration: 12s;
+}
+
+@keyframes countdown-five {
+    0%   {opacity: 0;}
+    45.44%    {opacity: 0;}
+    45.45%   {opacity: 1;}
+    54.53%   {opacity: 1;}
+    54.54%   {opacity: 0;}
+    100%    {opacity: 0;}
+  }
+
+.four {
+    position: absolute;
+    left:0;
+    right:0;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    animation-name:countdown-four;
+    animation-iteration-count: infinite;
+    animation-duration: 12s;
+}
+
+@keyframes countdown-four {
+    0%   {opacity: 0;}
+    54.53%   {opacity: 0;}
+    54.54%   {opacity: 1;}
+    63.62%   {opacity: 1;}
+    63.63%   {opacity: 0;}
+    100%    {opacity: 0;}
+  }
+
+.three {
+    position: absolute;
+    left:0;
+    right:0;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    animation-name:countdown-three;
+    animation-iteration-count: infinite;
+    animation-duration: 12s;
+}
+
+@keyframes countdown-three {
+    0%   {opacity: 0;}
+    63.62%   {opacity: 0;}
+    63.63%   {opacity: 1;}
+    72.71%   {opacity: 1;}
+    72.72%   {opacity: 0;}
+    100%    {opacity: 0;}
+  }
+
+.two {
+    position: absolute;
+    left:0;
+    right:0;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    animation-name:countdown-two;
+    animation-iteration-count: infinite;
+    animation-duration: 12s;
+}
+
+@keyframes countdown-two {
+    0%   {opacity: 0;}
+    72.71%   {opacity: 0;}
+    72.72%   {opacity: 1;}
+    81.80%   {opacity: 1;}
+    81.81%   {opacity: 0;}
+    100%    {opacity: 0;}
+  }
+
+.one {
+    position: absolute;
+    left:0;
+    right:0;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    animation-name:countdown-one;
+    animation-iteration-count: infinite;
+    animation-duration: 12s;
+}
+
+@keyframes countdown-one {
+    0%   {opacity: 0;}
+    81.80%  {opacity: 0;}
+    81.81%   {opacity: 1;}
+    90.89%   {opacity: 1;}
+    90.9%   {opacity: 0;}
+    100%    {opacity: 0;}
+  }
+
+.zero {
+    position: absolute;
+    left:0;
+    right:0;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    animation-name:countdown-zero;
+    animation-iteration-count: infinite;
+    animation-duration: 12s;
+}
+
+@keyframes countdown-zero {
+    0%   {opacity: 0;}
+    90.89%  {opacity: 0;}
+    90.9%   {opacity: 1;}
+    99.99%   {opacity: 1;}
+    100%   {opacity: 0;}
+  }
+
+
 
 .status {
     cursor: pointer;
